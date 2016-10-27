@@ -1,0 +1,356 @@
+/*HOME SECTION*/
+
+.wrap {
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1130px;
+	margin: auto;
+	font-family: OpenSans Regular;
+	font-size: 14px;
+	position: relative;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+section {
+	height: 700px;
+}
+
+button {
+	font-family: Raleway Regular;
+}
+
+section.home {
+	background: url('../img/background-image-copy.jpg');
+	width: 100%;
+}
+
+.home_menu {
+	margin: -60px auto 80px;
+	
+}
+
+
+.home_logo {
+	font-family: Bringin;
+	color: #56c7ff;
+	padding: 0 50px 0 0;
+    font-size: 29px;
+}
+
+span {
+	color: #95a5ad;
+}
+
+.menu-item {
+	display: inline-block;
+	font-family: OpenSans Bold;
+	font-size: 12px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	color: #6C7A89;
+}
+
+.menu-item a:hover {
+	border-bottom: 2px solid #36aeea;
+	color: #9daeb6;
+}
+
+.menu-item a:visited {
+	color: #9daeb6;
+}
+
+.menu-item a:active {
+	color: #9daeb6;
+}
+
+h4 {
+	float: left;
+}
+
+.call {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 153px;
+	height: 46px;
+	border: 3px solid #36aeea;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #36aeea;
+	text-transform: uppercase;
+}
+
+.call:active {
+	border: 3px solid white;
+}
+
+.menu-button {
+	color: #36aeea;
+	text-transform: uppercase;
+}
+
+.menu-button:active {
+	color: white;
+}
+
+
+.home_content {
+    border: 3px solid white;
+}
+
+.home_title {
+	width: 50%;
+	text-align: left;
+	margin: 30px;
+    padding: 30px;
+}
+
+.title {
+	font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: OpenSans Bold;
+}
+
+.logo-home {
+	font-size: 66px;
+    margin: -25px 0 0;
+    padding: 5px;
+	
+}
+
+.logo-text {
+	font-size: 18px;
+    color: white;
+    opacity: 0.8;
+    margin: 10px 0;
+}
+
+.home_order {
+width: 253px;
+height: 60px;
+background-color: #36aeea;
+border-radius: 4px;
+margin: 30px 0;
+
+}
+
+.order-button {
+	width: 103px;
+	height: 10px;
+	color: white;
+	font-family: Raleway Regular;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 44px;
+	text-transform: uppercase;
+}
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.  in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
+
+/*ABOUT SECTION*/
+
+.about {
+	background-color: #f6f4f4;
+	background: url('../pics/background.png') no-repeat center;
+	margin-top: -20px;
+}
+
+
+.about_item {
+	display: inline-block;
+	width: 33%;
+	
+}
+
+.about_title {
+	font-size: 20px;
+	color: #2c2e37;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: OpenSans Bold;
+	line-height: 43px;
+	margin: 170px 70px 0 0;
+}
+
+.about_text {
+	text-align: left;
+	font-size: 14px;
+	color: #949494;
+	line-height: 26px;
+	margin: 30px 0;
+	
+}
+
+.read-more {
+	width: 130px;
+	height: 40px;
+	background-color: #36aeea;
+	border-radius: 4px;
+	color: white;
+	text-transform: uppercase;
+	font-family: OpenSans Bold;
+	font-size: 12px;
+	
+}
+
+.img2 {
+
+	max-width: 806px;
+	opacity: 1;
+	z-index: 3;
+	position: absolute;
+	top: -40px;
+	right: -240px;
+
+	
+}
+.img1 {	
+	max-width: 350px;
+	opacity: 1;
+	position: absolute;
+	right: 320px;
+	top: 250px;
+}
+
+
+/*JOURNAL SECTION*/
+
+.journal {
+	height: 1000px;
+}
+
+
+.journal_title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2c2e37;
+	font-family: OpenSans Bold;
+	line-height: 43px;
+	padding: 80px;
+}
+
+.journal_list {
+	height: 747px;
+	margin: auto;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+	        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+	
+}
+
+.journal_item {
+	display: inline-block;
+	max-width: 374px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.item_title {
+	color: #16b5ef;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 13px;
+	font-family: OpenSans Bold;
+	
+	
+}
+
+.item_head {
+	font-family: OpenSans Bold;
+	font-size: 17px;
+	color: #212121;
+}
+
+
+/*
+.item_1 {
+	
+	/*padding: 143px 145px;
+	
+}
+
+.item_2 {
+	background: url('../img/layer-49.png');
+	padding: 150px;
+}
+
+.item_3 {
+	background: url('../img/9127271170-42c133847e-z.png');
+	padding: 150px 155px;
+}
+
+/*ORDER SECTION*/
+
+.order {
+	background: url('../pics/rectangle-53.png') no-repeat center;
+	width: 100%;
+	height: 700px;
+
+}
+
+.order_title {
+	font-size: 20px;
+	color: #2c2e37;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: OpenSans Bold;
+	line-height: 43px;
+	padding: 170px 70px 0 0;
+	
+}
+
+.order_text {
+	text-align: left;
+	font-size: 14px;
+	color: #949494;
+	line-height: 26px;
+	margin: 30px 0;
+}
+
+.order_list {
+	border: 1px solid gray;
+	background-color: #ffffff;
+	max-width: 855px;
+	height: 62px;
+}
+
+.order_item {
+	display: inline-block;
+}
+
+.order_name {
+	
+	
+	
+}
+
+.order_phone {
+	
+}
+
+/*SERVICE SECTION*/
+
+/*PRICE SECTION*/
+
+/*GALLERY SECTION*/
+
+/*CLIENTS SECTION*/
+
+/*CONTACTS SECTION*/
