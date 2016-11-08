@@ -475,8 +475,8 @@ section.clients {
 
 /*CONTACTS SECTION*/
 
-section.contacts {
-	background: url('../img/group-7-copy-2.png') no-repeat;
+section.reviews {
+	height: 150px;
 }
 
 
@@ -488,7 +488,7 @@ section.contacts {
 	color: #2c2e37;
 	font-family: OpenSans Bold;
 	line-height: 43px;
-	padding: 80px;
+	padding: 50px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -515,4 +515,124 @@ section.contacts {
 .clients-say-name {
 	color: #36aeea;
 }
+
+/* Contacts form */
+section.contacts {
+	background: url('../img/group-7-copy-2.png') no-repeat;
+	height: 950px;
+}
+
+section.contacts .container {
+	padding-top: 420px;
+	padding-bottom: 450px;
+	margin: auto;
+}
+
+.contacts_form {
+	margin: -50px auto;
+    max-width: 514px;
+    height: 496px;
+    background: url('../pics/blur.png') no-repeat center;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    box-shadow: 0 5px 51px rgba(0, 0, 0, 0.75);
+   
+    
+}
+
+.contacts-form-title {
+	color: #36aeea;
+	font-family: OpenSans Bold;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.contacts-form-text {
+	color: #383e4a;
+	font-family: OpenSans Regular;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+}
+
+input {
+	width: 100%;
+	height: 60px;
+	border: 1px solid white;
+	color: #ccc;
+    font-family: Roboto Regular;
+    font-size: 18px;
+}
+
+.contacts-form-item {
+	max-width: 450px;
+	height: 60px;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 4px;
+	padding: 7px 5px;
+	margin: 15px auto;
+
+}
+
+.home_order.contacts-button {
+	margin: 15px auto;
+	max-width: 450px;
+	height: 60px;
+}
+
+
+/*FOOTER SECTION*/
+
+footer {
+	background: #3e5d66;
+	height: 100px;
+}
+
+.footer_item {
+	display: inline-block;
+	max-width: 400px;
+	margin: 20px 50px;
+}
+
+.footer-logo-box {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin: 5px;
+}
+
+.footer-text {
+color: #7cbed2;
+font-family: OpenSans Regular;
+font-size: 18px;
+}
+
+.footer-phone {
+color: #7cbed2;
+font-family: Roboto Bold;
+font-size: 27px;
+text-align: right;
+}
+
+.footer-logo {
+	max-width: 40px;
+}
+
+.logo-box1 {
+ background-color: #29c5f6;
+	
+}
+
+.logo-box2 {
+	background-color: #6788ce;
+}
+
+
+.logo-box3 {
+	background-color: #54769a;
+}
+
 
