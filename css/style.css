@@ -464,7 +464,7 @@ section.clients {
 
 .clients_item {
 	display: inline-block;
-	max-width: 80px;
+	max-width: 90px;
     margin: 55px;
 }
 
@@ -593,8 +593,8 @@ footer {
 
 .footer_item {
 	display: inline-block;
-	max-width: 400px;
-	margin: 20px 50px;
+	max-width: 500px;
+	margin: 20px 100px;
 }
 
 .footer-logo-box {
@@ -621,18 +621,5 @@ text-align: right;
 	max-width: 40px;
 }
 
-.logo-box1 {
- background-color: #29c5f6;
-	
-}
-
-.logo-box2 {
-	background-color: #6788ce;
-}
-
-
-.logo-box3 {
-	background-color: #54769a;
-}
 
 
