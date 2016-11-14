@@ -169,7 +169,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 
 .about {
 	background-color: #f6f4f4;
-	background: url('../pics/background.png') no-repeat center;
+	background: url('../pics/about-background.png') no-repeat center;
 	margin-top: -20px;
 }
 
@@ -178,6 +178,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 	display: inline-block;
 	width: 33%;
 	
+}
+
+.waves-about .waves {
+	position: absolute;
+	top: 150px;
 }
 
 .about_title {
@@ -238,6 +243,12 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 	height: 1000px;
 }
 
+.waves-journal .waves{
+	position: absolute;
+	top: 50px;
+	left: 522px;	
+}
+
 
 .journal_title {
 	font-size: 30px;
@@ -251,7 +262,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 }
 
 .journal_list {
-	height: 747px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	overflow: hidden;
+	height: 750px;
 	margin: auto;
 	-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
 	        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
@@ -271,33 +286,40 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 	text-transform: uppercase;
 	line-height: 13px;
 	font-family: OpenSans Bold;
-	
-	
+	padding: 30px;
+		
 }
 
 .item_head {
 	font-family: OpenSans Bold;
 	font-size: 17px;
 	color: #212121;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	padding: 30px;
+	line-height: 26px;
 }
 
+.journal-item-text {
+	color: #777;
+	font-family: OpenSans Regular;
+	font-size: 15px;
+	text-align: center;
+	line-height: 24px;
+	padding: 30px;
+}
 
-/*
-.item_1 {
+.journal-number {
+	font-size: 15px;
+	font-style: italic;
+	color: #212121;
+	font-family: Times New Roman;
 	
-	/*padding: 143px 145px;
-	
 }
 
-.item_2 {
-	background: url('../img/layer-49.png');
-	padding: 150px;
-}
 
-.item_3 {
-	background: url('../img/9127271170-42c133847e-z.png');
-	padding: 150px 155px;
-}
+
 
 /*ORDER SECTION*/
 
@@ -306,6 +328,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 	width: 100%;
 	height: 700px;
 
+}
+
+.waves-order .waves {
+	position: absolute;
+	top: 140px;
 }
 
 .order_title {
@@ -329,14 +356,18 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 }
 
 .order_list {
-	border: 1px solid gray;
+	border: none;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
 	background-color: #ffffff;
 	max-width: 855px;
-	height: 62px;
+	
 }
 
 .order_item {
 	display: inline-block;
+    border-right: 2px solid #ebebeb;
+    padding: 0 35px 0 15px;
 }
 
 .order_name {
@@ -349,13 +380,87 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*/
 	
 }
 
+.order_note {
+	color: #36aeea;
+	font-family: OpenSans Regular;
+	font-size: 14px;
+	padding: 30px 0;
+}
+
 /*SERVICE SECTION*/
+
+section.service {
+	height: 700px;
+}
+
+.waves-service .waves {
+	position: absolute;
+	top: 50px;
+	left: 522px;
+}
+
+.service_title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2c2e37;
+	font-family: OpenSans Bold;
+	line-height: 43px;
+	padding: 80px;
+
+}
+
+.service_list {
+	margin: 30px auto;
+	text-align: center;
+	
+}
+
+.service_item {
+	float: left;
+	max-width: 200px;
+	text-align: center;
+	
+}
+
+
+
+.service_number {
+	border: 3px solid #36aeea;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	color: #36aeea;
+	width: 20px;
+	height: 20px;
+	margin: 5px auto;
+	padding: 5px;
+}
+
+
+.service-icon {
+	background-color: #f0f3f6;
+	max-width: 50px;
+	height: 50px;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+}
+
+
+
+
 
 /*PRICE SECTION*/
 
 section.price {
 	background: url('../img/worldmap-dots.png') no-repeat center;
 	height: 1000px;
+}
+
+.price-waves .waves {
+	position: absolute;
+	top: 50px;
+	left: 522px;
 }
 
 .price_title {
@@ -388,6 +493,12 @@ section.price {
 
 section.gallery {
 	height: 1000px;
+}
+
+.waves-gallery .waves {
+	position: absolute;
+	top: 60px;
+	left: 522px;
 }
 	
 .gallery_title {
@@ -479,6 +590,11 @@ section.reviews {
 	height: 150px;
 }
 
+.waves-reviews .waves {
+	position: absolute;
+	top: 20px;
+	left: 522px;
+}
 
 .clients_title {
 	font-size: 30px;
