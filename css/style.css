@@ -437,7 +437,7 @@ border-right: 5.53px dashed #f0f3f6;
 	float: left;
 	max-width: 250px;
 	text-align: center;
-	margin: 15px;
+	margin: 15px 50px;
 	
 }
 
@@ -456,58 +456,14 @@ border-right: 5.53px dashed #f0f3f6;
 	
 }
 
- img.service_icon_2{
-	width: 50px;
-    margin: 60px auto;
-}
-
-
-.service-polygon {
-	width: 100px;
-	height: 55px;
-	background: white;
-	position: relative;
-	-webkit-border-radius: 2px;
-	        border-radius: 2px;
-	
-}
-.service-polygon:before {
-	content: "";
-	position: absolute;
-	top: -25px; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 25px solid white;
-	-webkit-border-radius: 3px;
-	        border-radius: 3px;
-	
-}
-.service-polygon:after {
-	content: "";
-	position: absolute;
-	bottom: -25px; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 25px solid white;
-	-webkit-border-radius: 3px;
-	        border-radius: 3px;
-}
-
-
 .service-icon {
 	background-color: #f0f3f6;
-	width: 200px;
-	height: 200px;
+	width: 179px;
+	height: 179px;
 	-webkit-border-radius: 100%;
 	        border-radius: 100%;
-	
-}
+	margin: 80px auto;
+	}
 
 
 
