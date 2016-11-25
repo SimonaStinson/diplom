@@ -63,19 +63,21 @@ span {
 	font-size: 12px;
 	padding: 10px 15px;
 	text-transform: uppercase;
-	color: #6C7A89;
+	color: #9daeb6;
 }
 
-.menu-item a:hover {
+.menu-item > a:hover {
 	border-bottom: 2px solid #36aeea;
 	color: #9daeb6;
+
 }
 
-.menu-item a:visited {
+.menu-item > a:visited {
 	color: #9daeb6;
+
 }
 
-.menu-item a:active {
+.menu-item > a:active {
 	color: #9daeb6;
 }
 
@@ -210,9 +212,7 @@ margin: 30px 0;
 	font-family: OpenSans Bold;
 	font-size: 12px;
 	
-}
-
-	
+}	
 
 .img1 {	
 	max-width: 350px;
@@ -276,13 +276,13 @@ margin: 30px 0;
 	max-width: 374px;
 	text-align: center;
 	vertical-align: top;
+	box-sizing: border-box;
 }
 
 .item_title {
 	color: #16b5ef;
 	font-size: 12px;
 	text-transform: uppercase;
-	line-height: 13px;
 	font-family: OpenSans Bold;
 	padding: 30px;
 		
@@ -294,9 +294,7 @@ margin: 30px 0;
 	color: #212121;
 	text-transform: uppercase;
 	text-align: center;
-	vertical-align: middle;
 	padding: 30px;
-	line-height: 26px;
 }
 
 .journal-item-text {
@@ -313,7 +311,7 @@ margin: 30px 0;
 	font-style: italic;
 	color: #212121;
 	font-family: Times New Roman;
-	
+		
 }
 
 
@@ -321,11 +319,8 @@ margin: 30px 0;
 
 /*ORDER SECTION*/
 
-.order {
+section.order {
 	background: url('../img/background-mount.jpg') no-repeat center;
-	width: 100%;
-	height: 700px;
-
 }
 
 .waves-order .waves {
@@ -358,25 +353,53 @@ margin: 30px 0;
 	-webkit-border-radius: 5px;
 	        border-radius: 5px;
 	background-color: #ffffff;
-	max-width: 855px;
+	max-width: 900px;
+	height: 60px;
+    position: relative;
 	
 }
 
 .order_item {
 	display: inline-block;
-    border-right: 2px solid #ebebeb;
-    padding: 0 35px 0 15px;
+    padding: 0 45px 0 15px;
+    position: absolute;
 }
 
-.order_name {
-	
-	
+
+
+.order_item_name {
+	height: 52px;
+	border-right: 2px solid #ebebeb;
+	top: 5px;
 	
 }
 
-.order_phone {
-	
+.order_item_phone {
+	left: 270px;
+    height: 52px;
+    top: 5px;
+   
 }
+
+.order_item_button {
+	top: 0;
+    right: 0;
+    margin: -28px 5px;
+    padding: 0;
+}
+
+.order_name > input {
+	height: 50px;
+}
+
+.order_phone > input {
+	height: 50px;
+}
+
+.order_item_button > button {
+	height: 55px;
+}
+
 
 .order_note {
 	color: #36aeea;
@@ -550,7 +573,34 @@ section.gallery {
 
 .gallery-item {
 	display: inline-block;
+	position: relative;
 }
+
+.gallery_list > li > img {
+	transition: .1s transform;
+  	transform: translateZ(0);
+ }
+
+ .gallery > li:hover {
+  z-index: 1;
+}
+
+.gallery > li:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.gallery_animation:before, .gallery_animation:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.gallery_animation:after {
+  clear: both;
+}
+
+
 
 .gallery-block1 {
 	max-width: 263px;
