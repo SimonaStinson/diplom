@@ -140,7 +140,7 @@ h4 {
 }
 
 .home_order {
-max-width: 253px;
+width: 253px;
 height: 60px;
 background-color: #36aeea;
 border-radius: 4px;
@@ -149,7 +149,7 @@ margin: 30px 0;
 }
 
 .order-button {
-	max-width: 103px;
+	width: 103px;
 	height: 10px;
 	color: white;
 	font-family: Raleway Regular;
@@ -162,7 +162,7 @@ margin: 30px 0;
 
 @media screen and (max-width: 992px) {
 	.container {
-	 max-width: 992px;
+	 width: 992px;
 	}
 
 	.home_menu {
@@ -175,16 +175,48 @@ margin: 30px 0;
 	}
 
 	.order-button {
-		max-width: 80px;
+		width: 80px;
 		height: 8px;
 		font-size: 12px;
 		line-height: 40px;
 	}
 
 	.call {
-		max-width: 140px;
-	    height: 36px;
+		width: 140px;
+	    height: 30px;
 	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.logo-home {
+		font-size: 55px;
+	}
+
+}
+
+@media screen and (max-width: 780px) {
+	.order-button {
+		width: 60px;
+		height: 8px;
+		font-size: 10px;
+		line-height: 40px;
+	}
+
+	.call {
+		width: 120px;
+	    height: 26px;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.logo-home {
+		font-size: 45px;
+	}
+
 
 }
 
@@ -523,13 +555,13 @@ border-right: 5.53px dashed #f0f3f6;
 .service-item-title {
 	color: #2c2e37;
 	font-size: 18px;
-	margin-top: 100px;
+	margin-top: 120px;
 	font-style: Roboto Regular;
 }
 
 
 .service-text {
-	margin: 150px 10px;
+	margin: 10px 10px;
 	font-size: 16px;
 }
 
