@@ -1,9 +1,32 @@
-/*SECTION HOME*/
+/*GENERAL*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1130px;
+	}
+}
 
 @media screen and (max-width: 992px) {
 	.container {
 	 width: 992px;
 	}
+}
+
+@media screen and (max-width: 780px) {
+	.container {
+	 width: 780px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.container {
+	 width: 380px;
+	}
+}
+
+
+/*SECTION HOME*/
+
+@media screen and (max-width: 992px) {
 
 	.home_menu {
 		margin-top: -100px 0 80px;
@@ -41,10 +64,6 @@
 }
 
 @media screen and (max-width: 780px) {
-	.container {
-	 width: 780px;
-	}
-
 	.home_menu {
 		margin-top: -200px 0 80px;
 	}
@@ -83,11 +102,63 @@
 
 
 /*SECTION ABOUT */
+
+
+
+
+
 /*SECTION JOURNAL */
 /*SECTION ORDER*/
 /*SECTION SERVICES*/
 /*SECTION PRICE*/
+
 /*SECTION GALLERY*/
+@media screen and (max-width: 992px) {
+    
+    .gallery-responsive.__col-3 .gallery-responsive-item {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .gallery-item-img3,
+	.gallery-item-img6 {
+		display: none;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .gallery-responsive.__col-3 .gallery-responsive-item {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+     .gallery-item-img3,
+	.gallery-item-img6 {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 380px) {
+	.gallery-responsive.__col-3 .gallery-responsive-item {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+     .gallery-item-img3,
+	.gallery-item-img6 {
+		display: none;
+	}
+
+	.gallery-item-img2,
+	.gallery-item-img5 {
+		display: none;
+	}
+}
+
 /*SECTION CLIENTS*/
 /*SECTION REVIEWS*/
 /*SECTION CONTACTS*/

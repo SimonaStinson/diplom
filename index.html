@@ -12,7 +12,7 @@
 
 <div class="wrap">
 
-<section class="home"><a name="home"></a>
+<section class="home" id="home">
 	<img class="home_shadow" src="pics/rectangle-49.png">
 		<div class="container">
 			<div class="home_menu clearfix">
@@ -45,7 +45,7 @@
 						</button>
 		</div>
 
-<div class="home_content">
+<div class="home_content clearfix">
 	<div class="home_title">
 		<h1 class="title"> Travel with us </h1>
 			<h2 class="home_logo logo-home"> to the Mountains </h2>
@@ -63,7 +63,7 @@
 
 
 
-<section class="about"><a name="about"></a>
+<section class="about" id="about">
 	<div class="container">
 		<ul class="about_list">
 			<li class="about_item"> 
@@ -85,7 +85,7 @@
 </section>
 
 
-	<section class="journal"> <a name="journal"></a>
+	<section class="journal" id="journal">
 	<div class="container">
 		<div class="waves-journal"><img class="waves" src="pics/waves-copy.png"></div>
 		<h2 class="journal_title"> our journal </h2>
@@ -127,7 +127,7 @@
 </section>
 
 
-	<section class="order"><a name="order"></a>
+	<section class="order" id="order">
 			<div class="container">
 				<div class="waves-order"><img class="waves" src="pics/waves-copy.png"></div>
 				<h3 class="order_title"> do you wanna go? </h3>
@@ -135,7 +135,7 @@
 				<p class="order_text"> 
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				</p>
-				<ul class="order_list">
+				<ul class="order_list clearfix">
 					<li class="order_item order_item_name">
 					<form class="order_name" action="index_submit" method="get" accept-charset="utf-8">
 						<input name="Name" placeholder="Your name:">
@@ -156,20 +156,18 @@
 
 
 
-	<section class="service"><a name="services"></a>
+	<section class="service" id="service">
 			<div class="container">
 				<div class="waves-service"><img class="waves" src="pics/waves-copy.png"></div>
 				<h2 class="service_title">how we work</h2>
-				<div class="dotted-shape">
-					<div class="dotted-lines"> </div>
-					</div>
-				<ul class="service_list">
+				<ul class="service_list clearfix">
 
 				<li class="service_item"> 
+
 					<div class="service_number">1</div>
 					<div class="service-icon">
 					
-						<img class="service_icon_2" src="pics/3-layers-1.png" alt=""/>
+						<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-1.png" alt=""/></figure>
 						<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
 						<p class="service-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 						</div>
@@ -179,7 +177,7 @@
 				<div class="service_number">2</div>
 					
 						<div class="service-icon">
-							<img class="service_icon_2" src="pics/3-layers-2.png" alt=""/>
+							<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-2.png" alt=""></figure>
 							<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
 							<p class="service-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 							</div>
@@ -188,7 +186,7 @@
 				<li class="service_item"> 
 					<div class="service_number">3</div>
 					<div class="service-icon">
-						<img class="service_icon_2" src="pics/3-layers-3.png" alt=""/>
+						<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-3.png" alt=""/></figure>
 						<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
 						<p class="service-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 						</div>
@@ -197,7 +195,7 @@
 				<li class="service_item"> 
 					<div class="service_number">4</div>
 					<div class="service-icon">
-						<img class="service_icon_2" src="pics/3-layers.png" alt=""/>
+						<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-4.png" alt=""/></figure>
 						<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
 						<p class="service-text">amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 						</div>
@@ -320,12 +318,11 @@
 		</li>
 	</ul>
 	</div>
+	<div class="reviews-shadow"></div>
 	</section>
 
-	<section class="contacts"><a name="contacts"></a>
-<div class="container">
-			 <div class="contacts_form">
-        <form name="login-form" class="login-form" action="" method="get">
+	<section class="contacts" id="contacts">	 
+        <form name="login-form" class="login-form contacts_form" action="" method="get">
             <div class="header">
                 <h2 class="contacts-form-title">Contacts</h2>
                 <p class="contacts-form-text">Sign up for our newsletter to receive updates</p>
@@ -353,8 +350,6 @@
         	   		  </ul>
              <button class="home_order"><a class="order-button contacts-button" href="#order">send</a></button>
         </form>
-			</div>
-		</div>
 	</section>
 
 	<footer>
