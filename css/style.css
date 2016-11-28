@@ -119,6 +119,7 @@ h4 {
     color: white;
     text-transform: uppercase;
     font-family: OpenSans Bold;
+    
 }
 
 .logo-home {
@@ -175,7 +176,7 @@ margin: 30px 0;
 
 .waves-about .waves {
 	position: absolute;
-	top: 150px;
+	top: 33%;
 }
 
 .about_list {
@@ -215,7 +216,7 @@ margin: 30px 0;
 }	
 
 .img1 {	
-	max-width: 350px;
+	width: 33%;
 	opacity: 1;
 	position: absolute;
 	right: 320px;
@@ -226,7 +227,7 @@ margin: 30px 0;
 
 .img2 {
 
-	max-width: 806px;
+	max-width: 75%;
 	opacity: 1;
 	z-index: 100;
 	position: absolute;
@@ -243,8 +244,8 @@ margin: 30px 0;
 }
 .waves-journal .waves{
 	position: absolute;
-	top: 50px;
-	left: 522px;	
+	top: 4%;
+    left: 46%;	
 }
 
 
@@ -273,7 +274,7 @@ margin: 30px 0;
 	display: inline-block;
 	max-width: 33.1%;
 	text-align: center;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 .item_title {
@@ -281,7 +282,7 @@ margin: 30px 0;
 	font-size: 12px;
 	text-transform: uppercase;
 	font-family: OpenSans Bold;
-	padding: 25px;
+	padding: 15px;
 		
 }
 
@@ -291,7 +292,7 @@ margin: 30px 0;
 	color: #212121;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 25px;
+	padding: 15px;
 }
 
 .journal-item-text {
@@ -300,7 +301,7 @@ margin: 30px 0;
 	font-size: 15px;
 	text-align: center;
 	line-height: 24px;
-	padding: 25px;
+	padding: 20px;
 }
 
 .journal-number {
@@ -326,7 +327,7 @@ section.order {
 
 .waves-order .waves {
 	position: absolute;
-	top: 140px;
+	top: 24%;
 }
 
 .order_title {
@@ -414,8 +415,8 @@ section.order {
 
 .waves-service .waves {
 	position: absolute;
-	top: 50px;
-	left: 522px;
+	top: 10%;
+    left: 46%;
 }
 
 .service_title {
@@ -546,8 +547,8 @@ section.price {
 
 .price-waves .waves {
 	position: absolute;
-	top: 50px;
-	left: 522px;
+	top: 8%;
+    left: 46%;
 }
 
 .price_title {
@@ -589,8 +590,8 @@ section.gallery {
 
 .waves-gallery .waves {
 	position: absolute;
-	top: 60px;
-	left: 522px;
+	top: 6%;
+    left: 46%;
 }
 	
 .gallery_title {
@@ -672,8 +673,8 @@ section.reviews {
 
 .waves-reviews .waves {
 	position: absolute;
-	top: 20px;
-	left: 522px;
+	top: 6%;
+    left: 46%;
 }
 
 .clients_title {

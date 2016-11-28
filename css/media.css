@@ -154,23 +154,73 @@
 }
 /*SECTION ORDER*/
 @media screen and (max-width: 1280px) {
-	
+	.order_title {
+	font-size: 20px;
+	}
+
+	.order_text {
+	font-size: 14px;
+	}
+
+	.order_note {
+	font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 992px) {
-	
+	.order_title {
+	font-size: 18px;
+	}
+
+	.order_text {
+	font-size: 13px;
+	}
+
+	.order_note {
+	font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-	
+	.order_title {
+	font-size: 16px;
+	}
+
+	.order_text {
+	font-size: 12px;
+	}
+
+	.order_note {
+	font-size: 11px;
+	}
 }
 
 @media screen and (max-width: 480px) {
-	
+	.order_title {
+	font-size: 14px;
+	}
+
+	.order_text {
+	font-size: 11px;
+	}
+
+	.order_note {
+	font-size: 10px;
+	}
 }
 
 @media screen and (max-width: 320px) {
-	
+	.order_title {
+	font-size: 12px;
+	}
+
+	.order_text {
+	font-size: 10px;
+	}
+
+	.order_note {
+	font-size: 8px;
+	}
 }
 /*SECTION SERVICES*/
 @media screen and (max-width: 1280px) {
