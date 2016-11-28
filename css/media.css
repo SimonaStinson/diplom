@@ -1,5 +1,5 @@
 /*GENERAL*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 	.container {
 		width: 1130px;
 	}
@@ -11,7 +11,7 @@
 	}
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
 	.container {
 	 width: 780px;
 	}
@@ -63,7 +63,7 @@
 
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
 	.home_menu {
 		margin-top: -200px 0 80px;
 	}
@@ -103,14 +103,108 @@
 
 /*SECTION ABOUT */
 
+@media screen and (max-width: 1280px) {
+	
+}
 
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
 
 
 
 /*SECTION JOURNAL */
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
 /*SECTION ORDER*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
 /*SECTION SERVICES*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
 /*SECTION PRICE*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
 
 /*SECTION GALLERY*/
 @media screen and (max-width: 992px) {
@@ -160,6 +254,138 @@
 }
 
 /*SECTION CLIENTS*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
+
+
+
 /*SECTION REVIEWS*/
+@media screen and (max-width: 1280px) {
+	.clients-item {
+		width: 48%;
+	}
+
+	.clients-text {
+		font-size: 18px;
+	}
+
+	.clients-foto {
+		width: 13%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.clients-item {
+		width: 38%;
+	}
+	.clients-text {
+		font-size: 16px;
+	}
+
+	.clients-foto {
+		width: 10%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.clients-item {
+		width: 28%;
+	}
+
+	.clients-text {
+		font-size: 14px;
+	}
+
+	.clients-foto {
+		width: 8%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.cients-item {
+		width: 20%;
+	}
+
+	.clients-text {
+		font-size: 12px;
+	}
+
+	.clients-foto {
+		width: 6%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.clients-item {
+		width: 15%;
+	}
+	.clients-text {
+		font-size: 10px;
+	}
+
+	.clients-foto {
+		width: 4%;
+	}
+}
+
 /*SECTION CONTACTS*/
+
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
+
+
 /*SECTION FOOTER*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
