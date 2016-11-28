@@ -7,19 +7,26 @@
 
 @media screen and (max-width: 992px) {
 	.container {
-	 width: 992px;
+	 width: 900px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.container {
-	 width: 780px;
+	 width: 700px;
 	}
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
 	.container {
-	 width: 380px;
+		width: 400px;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.container {
+	 width: 295px;
 	}
 }
 
@@ -29,7 +36,7 @@
 @media screen and (max-width: 992px) {
 
 	.home_menu {
-		margin-top: -100px 0 80px;
+		margin-top: -10px 0 80px;
 	}
 
 	.menu-item {
@@ -65,7 +72,7 @@
 
 @media screen and (max-width: 768px) {
 	.home_menu {
-		margin-top: -200px 0 80px;
+		margin-top: 40px 0 80px;
 	}
 
 	.menu-item {
@@ -187,30 +194,45 @@
 }
 /*SECTION PRICE*/
 @media screen and (max-width: 1280px) {
-	
+	.price_item {
+		width: 17%;
+		margin: 15px;	
+	}
 }
 
 @media screen and (max-width: 992px) {
-	
+	.price_item {
+	width: 15.5%;
+	margin: 12px;	
+}
 }
 
 @media screen and (max-width: 768px) {
-	
+	.price_item {
+	width: 13%;
+	margin: 10px;	
+}
 }
 
 @media screen and (max-width: 480px) {
-	
+	.price_item {
+	width: 11%;
+	margin: 8px;	
+}
 }
 
 @media screen and (max-width: 320px) {
-	
+	.price_item {
+	width: 9%;
+	margin: 5px;	
+}
 }
 
 /*SECTION GALLERY*/
 @media screen and (max-width: 992px) {
     
-    .gallery-responsive.__col-3 .gallery-responsive-item {
-        width: 50%;
+   .gallery-responsive-item {
+        width: 40%;
         margin: 10px auto;
     }
 
@@ -224,9 +246,9 @@
 
 @media screen and (max-width: 768px) {
     
-    .gallery-responsive.__col-3 .gallery-responsive-item {
-        width: 100%;
-        margin: 10px auto;
+    .gallery-responsive-item {
+        width: 25%;
+        margin: 10px 15px;
     }
 
      .gallery-item-img3,
@@ -236,10 +258,10 @@
 
 }
 
-@media screen and (max-width: 380px) {
-	.gallery-responsive.__col-3 .gallery-responsive-item {
-        width: 100%;
-        margin: 10px auto;
+@media screen and (max-width: 320px) {
+	.gallery-responsive-item {
+        width: 45%;
+        margin: 10px 15px;
     }
 
      .gallery-item-img3,
@@ -255,23 +277,33 @@
 
 /*SECTION CLIENTS*/
 @media screen and (max-width: 1280px) {
-	
+	.clients_item {
+		width: 8%;
+    	margin: 46px;
 }
 
 @media screen and (max-width: 992px) {
-	
+	 .clients_item {
+		width: 7%;
+    	margin: 40px;
 }
 
 @media screen and (max-width: 768px) {
-	
+	.clients_item {
+		width: 6%;
+    	margin: 34px;
 }
 
 @media screen and (max-width: 480px) {
-	
+	.clients_item {
+		width: 5%;
+    	margin: 34px;
 }
 
 @media screen and (max-width: 320px) {
-	
+	  .clients_item {
+		width: 5%;
+    	margin: 20px;
 }
 
 
@@ -349,23 +381,66 @@
 /*SECTION CONTACTS*/
 
 @media screen and (max-width: 1280px) {
-	
+	section.contacts {
+	padding: 200px 0;
+	}
+
+	.contacts-form-title {
+		font-size: 36px;
+	}
 }
 
 @media screen and (max-width: 992px) {
-	
+	section.contacts {
+	padding: 150px 0;
+	}
+	.contacts-form-text {
+	font-size: 13px;
+	}
+
+	.contacts-form-title {
+		font-size: 34px;
+	}
 }
 
 @media screen and (max-width: 768px) {
+	section.contacts {
+	padding: 100px 0;
+	}
+	.contacts-form-text {
+	font-size: 12px;
 	
+	}
+
+	.contacts-form-title {
+		font-size: 32px;
+	}
 }
 
 @media screen and (max-width: 480px) {
+	section.contacts {
+	padding: 50px 0;
+	}
+	.contacts-form-text {
+	font-size: 11px;
+	}
 	
+	.contacts-form-title {
+		font-size: 28px;
+	}
 }
 
 @media screen and (max-width: 320px) {
+	section.contacts {
+	padding: 20px 0;
+	}
+	.contacts-form-text {
+	font-size: 10px;
+	}
 	
+	.contacts-form-title {
+		font-size: 25px;
+	}
 }
 
 
