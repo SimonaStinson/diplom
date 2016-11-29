@@ -6,8 +6,6 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/fonts.css">
 <link rel="stylesheet" type="text/css" href="css/media.css">
-<link rel="stylesheet" type="text/css" href="css/animation.css">
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<title>Mountains</title>
 </head>
 <body>
@@ -23,17 +21,17 @@
 						<li class="menu-item">
 							<a href="#about">Our Story</a></li>
 						<li class="menu-item">
-							<a href="#services">Services</a></li> 
+							<a href="#journal">Journal</a></li> 
 						<li class="menu-item">
-							<a href="#work">Work</a></li>
+							<a href="#order">Order</a></li>
 						<li class="menu-item">
-							<a href="#journal">Journal</a></li>
+							<a href="#services">Services</a></li>
+						<li class="menu-item">
+							<a href="#prices">Prices</a></li>
+						<li class="menu-item">
+							<a href="#gallery">Gallery</a></li>
 						<li class="menu-item">
 							<a href="#contacts">Contacts</a></li>
-						<li class="menu-item">
-							<a href="#work">Work</a></li>
-						<li class="menu-item">
-							<a href="#journal">Journal</a></li>
 					</ul>
 			<button class="call">
 				<a class="menu-button" href="#contacts">call us</a>
@@ -73,7 +71,7 @@
 				<img class="img1" src="img/16047839768-3d53d0b471-z.jpg" alt="boots">
 			</li>
 			<li class="about_item">
-				<img class="img2" src="img/curves-3.png" alt="selfie">
+				<img class="img2" src="img/2-layers.png" alt="selfie">
 			</li>
 		</ul>
 	</div>
@@ -157,13 +155,12 @@
 	<div class="container">
 		<div class="waves-service"><img class="waves" src="pics/waves-copy.png"></div>
 			<h2 class="service_title">how we work</h2>
-				<ul class="service_list clearfix">
+				<ul class="service_list">
 					<li class="service_item"> 
 						<div class="service_number">1</div>
 							<div class="service-icon">
 								<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-1.png" alt=""/></figure>
-									<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
-										<p class="service-text">
+								<p class="service-text"> <b>Lorem ipsum dolor</b> sit 
 										amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 							</div>
 					</li>
@@ -171,8 +168,7 @@
 						<div class="service_number">2</div>
 							<div class="service-icon">
 								<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-2.png" alt=""></figure>
-									<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
-									<p class="service-text">
+								<p class="service-text"> <b>Lorem ipsum dolor sit </b>
 									amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 							</div>
 					</li>
@@ -180,18 +176,16 @@
 						<div class="service_number">3</div>
 							<div class="service-icon">
 								<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-3.png" alt=""/></figure>
-									<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
-										<p class="service-text">
-										amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+								<p class="service-text"> <b> Lorem ipsum dolor sit </b>
+									amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 							</div>
 					</li>
 					<li class="service_item"> 
 						<div class="service_number">4</div>
 							<div class="service-icon">
 								<figure class="service_icon_2"><img class="service_icon_img" src="pics/2-layers-4.png" alt=""/></figure>
-									<h6 class="servis-item-title"> Lorem ipsum dolor sit </h6>
-										<p class="service-text">
-										amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+									<p class="service-text"> <b>Lorem ipsum dolor sit </b>
+									amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 							</div>
 					</li>
 			</ul>
@@ -200,7 +194,7 @@
 </section>
 
 
-<section class="price">
+<section class="price" id="price">
 			<div class="container">
 				<div class="price-waves"><img class="waves" src="pics/waves-copy.png"></div>
 				<h2 class="price_title">travel with us</h2>
@@ -228,7 +222,7 @@
 	</section>
 
 
-<section class="gallery">
+<section class="gallery" id="gallery">
 	<div class="container">
 		<div class="waves-gallery"><img class="waves" src="pics/waves-copy.png"></div>
 			<h2 class="gallery_title">gallery</h2>
@@ -370,20 +364,5 @@
 	
 	
 </div>
-
-<script>
-	$(window).scroll(function() {
-		$('#title').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
-	});
-</script>
-
-
 </body>
 </html>

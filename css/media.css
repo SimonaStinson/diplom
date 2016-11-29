@@ -111,47 +111,37 @@
 /*SECTION ABOUT */
 
 @media screen and (max-width: 1280px) {
+	.about {
+		margin-top: -20px;
+	}
 	
 }
 
 @media screen and (max-width: 992px) {
-	
+	.about {
+		margin-top: -40px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-	
+	.about {
+		margin-top: -80px;
+	}
 }
 
 @media screen and (max-width: 480px) {
-	
+	.about {
+		margin-top: -100px;
+	}
 }
 
 @media screen and (max-width: 320px) {
-	
+	about {
+		margin-top: -1000px;
+	}
 }
 
 
-
-/*SECTION JOURNAL */
-@media screen and (max-width: 1280px) {
-	
-}
-
-@media screen and (max-width: 992px) {
-	
-}
-
-@media screen and (max-width: 768px) {
-	
-}
-
-@media screen and (max-width: 480px) {
-	
-}
-
-@media screen and (max-width: 320px) {
-	
-}
 /*SECTION ORDER*/
 @media screen and (max-width: 1280px) {
 	.order_title {
@@ -222,26 +212,7 @@
 	font-size: 8px;
 	}
 }
-/*SECTION SERVICES*/
-@media screen and (max-width: 1280px) {
-	
-}
 
-@media screen and (max-width: 992px) {
-	
-}
-
-@media screen and (max-width: 768px) {
-	
-}
-
-@media screen and (max-width: 480px) {
-	
-}
-
-@media screen and (max-width: 320px) {
-	
-}
 /*SECTION PRICE*/
 @media screen and (max-width: 1280px) {
 	.price_item {
@@ -297,8 +268,8 @@
 @media screen and (max-width: 768px) {
     
     .gallery-responsive-item {
-        width: 25%;
-        margin: 10px 15px;
+        width: 50%;
+        margin: 10px auto;
     }
 
      .gallery-item-img3,
@@ -306,7 +277,14 @@
 		display: none;
 	}
 
+
+	.gallery-item-img2,
+	.gallery-item-img5 {
+		display: none;
+	}
 }
+
+
 
 @media screen and (max-width: 320px) {
 	.gallery-responsive-item {
@@ -494,23 +472,3 @@
 }
 
 
-/*SECTION FOOTER*/
-@media screen and (max-width: 1280px) {
-	
-}
-
-@media screen and (max-width: 992px) {
-	
-}
-
-@media screen and (max-width: 768px) {
-	
-}
-
-@media screen and (max-width: 480px) {
-	
-}
-
-@media screen and (max-width: 320px) {
-	
-}
