@@ -53,6 +53,10 @@ span {
 	color: #95a5ad;
 }
 
+a {
+	color: #9daeb6;
+}
+
 .menu-item {
 	display: inline-block;
 	font-family: OpenSans Bold;
